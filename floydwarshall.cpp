@@ -64,8 +64,6 @@ void solve() {
         }
         cout << endl;
     }
-
-
 }
  
 int main() {
