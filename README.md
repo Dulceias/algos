@@ -27,10 +27,11 @@ typedef vector<pll> vpl;
 
 #define F first
 #define S second
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
+#define yes cout << 'YES' << endl
+#define no cout << 'NO' << endl
 #define pb push_back
 #define forn(i, x, n) for (ll i = x; i < n; i++)
+#define srt(x) sort(x.begin(), x.end())
 #define mod 1000000007
 #define inf 10000000000
 
@@ -80,6 +81,7 @@ int main() {
       "#define no cout << 'NO' << endl",
       "#define pb push_back",
       "#define forn(i, x, n) for (ll i = x; i < n; i++)",
+      "#define srt(x) sort(x.begin(), x.end())",
       "#define mod 1000000007",
       "#define inf 10000000000",
       "",
