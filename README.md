@@ -17,7 +17,7 @@ typedef vector<ll> vl;
 typedef vector<bool> vb;
 typedef vector<double> vd;
 typedef vector<string> vs;
-typedef vector<char> vc
+typedef vector<char> vc;
 typedef vector<vi> vvi;
 typedef pair<int,int> pii;
 typedef vector<pii> vii;
@@ -26,23 +26,33 @@ typedef vector<vl> vvl;
 typedef pair<ll, ll> pll;
 typedef vector<pll> vpl;
 
-#define F first
-#define S second
-#define yes cout << "YES" << endl
-#define no cout << "NO" << endl
-#define pb push_back
-#define forn(i, x, n) for (ll i = x; i < n; i++)
-#define fornl(i, x, n) for(ll i = x; i >= n; i--)
-#define all(x) x.begin(), x.end()
 #define mod 1000000007
 #define inf 10000000000000
+#define F first
+#define S second
+#define nd '\n'
+#define forn(i, x, n) for (int i = x; i < int(n); i++)
+#define fornl(i, x, n) for(int i = x; i >= int(n); i--)
+#define fnd(x, y) find(x.begin(), x.end(), y)
+#define srt(x) sort(x.begin(), x.end())
+#define debug(x) cout << #x << " = " << x << nd;
+#define debugv(x, s) cout << #x << " = "; forn(i, 0, s) cout << x[i] << " "; cout << nd;
+#define fastio ios_base::sync_with_stdio(false), cin.tie(0);
+#define freop(in, out) freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
+#define rmod(a, b) (a % mod - b % mod + mod) % mod
+#define smod(a, b) (a % mod + b % mod) % mod
+#define mmod(a, b) (a % mod) * (b % mod) % mod
+#define yes cout << "YES" << nd;
+#define no cout << "NO" << nd;
+#define pb push_back
+#define all(x) x.begin(), x.end()
 
 void solve() {
     
 }
 
 int main() {
-    ios_base::sync_with_stdio(false), cin.tie(0);
+    fastio;
     int t = 1; //cin >> t;
     while(t--) solve();
     return 0;
@@ -69,7 +79,7 @@ int main() {
         "typedef vector<bool> vb;",
         "typedef vector<double> vd;",
         "typedef vector<string> vs;",
-        "typedef vector<char> vc",
+        "typedef vector<char> vc;",
         "typedef vector<vi> vvi;",
         "typedef pair<int,int> pii;",
         "typedef vector<pii> vii;",
@@ -78,23 +88,34 @@ int main() {
         "typedef pair<ll, ll> pll;",
         "typedef vector<pll> vpl;",
         "",
-        "#define F first",
-        "#define S second",
-        "#define yes cout << \"YES\" << endl",
-        "#define no cout << \"NO\" << endl",
-        "#define pb push_back",
-        "#define forn(i, x, n) for (ll i = x; i < n; i++)",
-        "#define fornl(i, x, n) for(ll i = x; i >= n; i--)",
-        "#define all(x) x.begin(), x.end()",
         "#define mod 1000000007",
         "#define inf 10000000000000",
+        "#define F first",
+        "#define S second",
+        "#define nd '\\n'",
+        "#define forn(i, x, n) for (int i = x; i < int(n); i++)",
+        "#define fornl(i, x, n) for(int i = x; i >= int(n); i--)",
+        "#define fnd(x, y) find(x.begin(), x.end(), y)",
+        "#define srt(x) sort(x.begin(), x.end())",
+        "#define debug(x) cout << #x << \" = \" << x << nd;",
+        "#define debugv(x, s) cout << #x << \" = \"; forn(i, 0, s) cout << x[i] << \" \"; cout << nd;",
+        "#define fastio ios_base::sync_with_stdio(false), cin.tie(0);",
+        "#define freop(in, out) freopen(\"in.txt\", \"r\", stdin); freopen(\"out.txt\", \"w\", stdout);",
+        "#define rmod(a, b) (a % mod - b % mod + mod) % mod",
+        "#define smod(a, b) (a % mod + b % mod) % mod",
+        "#define mmod(a, b) (a % mod) * (b % mod) % mod",
+        "#define yes cout << \"YES\" << nd;",
+        "#define no cout << \"NO\" << nd;",
+        "#define pb push_back",
+        "#define all(x) x.begin(), x.end()",
+        
         "",
         "void solve() {",
-        "    ",
+        "    $0",
         "}",
         "",
         "int main() {",
-        "    ios_base::sync_with_stdio(false), cin.tie(0);",
+        "    fastio;",
         "    int t = 1; //cin >> t;",
         "    while(t--) solve();",
         "    return 0;",
@@ -102,4 +123,5 @@ int main() {
     ],
     "description": ""
     }
-}```
+}
+```
