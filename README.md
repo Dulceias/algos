@@ -42,8 +42,8 @@ typedef vector<pll> vpl;
 #define rmod(a, b) (a % mod - b % mod + mod) % mod
 #define smod(a, b) (a % mod + b % mod) % mod
 #define mmod(a, b) (a % mod) * (b % mod) % mod
-#define yes cout << "YES" << nd;
-#define no cout << "NO" << nd;
+#define yes cout << "YES" << nd
+#define no cout << "NO" << nd
 #define pb push_back
 #define all(x) x.begin(), x.end()
 
@@ -104,8 +104,8 @@ int main() {
         "#define rmod(a, b) (a % mod - b % mod + mod) % mod",
         "#define smod(a, b) (a % mod + b % mod) % mod",
         "#define mmod(a, b) (a % mod) * (b % mod) % mod",
-        "#define yes cout << \"YES\" << nd;",
-        "#define no cout << \"NO\" << nd;",
+        "#define yes cout << \"YES\" << nd",
+        "#define no cout << \"NO\" << nd",
         "#define pb push_back",
         "#define all(x) x.begin(), x.end()",
         
