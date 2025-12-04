@@ -31,8 +31,8 @@ typedef vector<pll> vpl;
 #define F first
 #define S second
 #define nd '\n'
-#define forn(i, x, n) for (int i = x; i < int(n); i++)
-#define fornl(i, x, n) for(int i = x; i >= int(n); i--)
+#define forn(i, x, n) for (ll i = x; i < ll(n); i++)
+#define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)
 #define fnd(x, y) find(x.begin(), x.end(), y)
 #define srt(x) sort(x.begin(), x.end())
 #define debug(x) cout << #x << " = " << x << nd;
@@ -93,8 +93,8 @@ int main() {
         "#define F first",
         "#define S second",
         "#define nd '\\n'",
-        "#define forn(i, x, n) for (int i = x; i < int(n); i++)",
-        "#define fornl(i, x, n) for(int i = x; i >= int(n); i--)",
+        "#define forn(i, x, n) for (ll i = x; i < ll(n); i++)",
+        "#define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)",
         "#define fnd(x, y) find(x.begin(), x.end(), y)",
         "#define srt(x) sort(x.begin(), x.end())",
         "#define debug(x) cout << #x << \" = \" << x << nd;",
