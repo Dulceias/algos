@@ -7,6 +7,9 @@ hola comoe stan este es el repo k voy a usar para subir todos los algoritmos que
 #include <iostream>
 #include <vector>
 #include <map>
+#include <numeric>
+#include <set>
+#include <queue>
 #include <algorithm>
 #include <limits.h>
 using namespace std;
