@@ -33,6 +33,9 @@ typedef vector<pll> vpl;
 #define nd '\n'
 #define forn(i, x, n) for (ll i = x; i < ll(n); i++)
 #define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)
+#define cina(x) for(auto &c : x) cin >> c;
+#define cingra(x, y, n) forn(i, y, n){ll a, b; cin >> a >> b; a--; b--; x[a].pb(b); x[b].pb(a);}
+#define cingraw(x, y, n) forn(i, y, n){ll a, b, c; cin >> a >> b >> c; a--; b--; x[a].pb({b, c}); x[b].pb({a, c});}
 #define fnd(x, y) find(x.begin(), x.end(), y)
 #define srt(x) sort(x.begin(), x.end())
 #define debug(x) cout << #x << " = " << x << nd;
@@ -95,6 +98,9 @@ int main() {
         "#define nd '\\n'",
         "#define forn(i, x, n) for (ll i = x; i < ll(n); i++)",
         "#define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)",
+        "#define cina(x) for(auto &c : x) cin >> c;",
+        "#define cingra(x, y, n) forn(i, y, n){ll a, b; cin >> a >> b; a--; b--; x[a].pb(b); x[b].pb(a);}",
+        "#define cingraw(x, y, n) forn(i, y, n){ll a, b, c; cin >> a >> b >> c; a--; b--; x[a].pb({b, c}); x[b].pb({a, c});}",
         "#define fnd(x, y) find(x.begin(), x.end(), y)",
         "#define srt(x) sort(x.begin(), x.end())",
         "#define debug(x) cout << #x << \" = \" << x << nd;",
