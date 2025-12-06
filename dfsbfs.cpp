@@ -30,7 +30,7 @@ vb visited;
 void dfs(int x){
     visited[x] = true;
     for(auto v : grafo[x]){
-        if(!visited[x]) dfs(x);
+        if(!visited[v]) dfs(v);
     }
 }
 
