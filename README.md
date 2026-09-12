@@ -25,6 +25,7 @@ typedef vector<vi> vvi;
 typedef pair<int,int> pii;
 typedef vector<pii> vii;
 typedef map<int, int> mii;
+typedef map<ll, ll> mll;
 typedef vector<vl> vvl;
 typedef pair<ll, ll> pll;
 typedef vector<pll> vpl;
@@ -37,17 +38,11 @@ typedef vector<pll> vpl;
 #define forn(i, x, n) for (ll i = x; i < ll(n); i++)
 #define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)
 #define cina(x) for(auto &c : x) cin >> c;
-#define cingra(x, y, n) forn(i, y, n){ll a, b; cin >> a >> b; a--; b--; x[a].pb(b); x[b].pb(a);}
-#define cingraw(x, y, n) forn(i, y, n){ll a, b, c; cin >> a >> b >> c; a--; b--; x[a].pb({b, c}); x[b].pb({a, c});}
-#define fnd(x, y) find(x.begin(), x.end(), y)
 #define srt(x) sort(x.begin(), x.end())
+#define rsrt(x) sort(x.rbegin(), x.rend())
 #define debug(x) cout << #x << " = " << x << nd;
 #define debugv(x, s) cout << #x << " = "; forn(i, 0, s) cout << x[i] << " "; cout << nd;
 #define fastio ios_base::sync_with_stdio(false), cin.tie(0);
-#define freop(in, out) freopen("in.txt", "r", stdin); freopen("out.txt", "w", stdout);
-#define rmod(a, b) (a % mod - b % mod + mod) % mod
-#define smod(a, b) (a % mod + b % mod) % mod
-#define mmod(a, b) (a % mod) * (b % mod) % mod
 #define yes cout << "YES" << nd
 #define no cout << "NO" << nd
 #define pb push_back
@@ -93,6 +88,7 @@ int main() {
         "typedef pair<int,int> pii;",
         "typedef vector<pii> vii;",
         "typedef map<int, int> mii;",
+        "typedef map<ll, ll> mll;",
         "typedef vector<vl> vvl;",
         "typedef pair<ll, ll> pll;",
         "typedef vector<pll> vpl;",
@@ -105,17 +101,11 @@ int main() {
         "#define forn(i, x, n) for (ll i = x; i < ll(n); i++)",
         "#define fornl(i, x, n) for(ll i = x; i >= ll(n); i--)",
         "#define cina(x) for(auto &c : x) cin >> c;",
-        "#define cingra(x, y, n) forn(i, y, n){ll a, b; cin >> a >> b; a--; b--; x[a].pb(b); x[b].pb(a);}",
-        "#define cingraw(x, y, n) forn(i, y, n){ll a, b, c; cin >> a >> b >> c; a--; b--; x[a].pb({b, c}); x[b].pb({a, c});}",
-        "#define fnd(x, y) find(x.begin(), x.end(), y)",
         "#define srt(x) sort(x.begin(), x.end())",
+        "#define rsrt(x) sort(x.rbegin(), x.rend())",
         "#define debug(x) cout << #x << \" = \" << x << nd;",
         "#define debugv(x, s) cout << #x << \" = \"; forn(i, 0, s) cout << x[i] << \" \"; cout << nd;",
         "#define fastio ios_base::sync_with_stdio(false), cin.tie(0);",
-        "#define freop(in, out) freopen(\"in.txt\", \"r\", stdin); freopen(\"out.txt\", \"w\", stdout);",
-        "#define rmod(a, b) (a % mod - b % mod + mod) % mod",
-        "#define smod(a, b) (a % mod + b % mod) % mod",
-        "#define mmod(a, b) (a % mod) * (b % mod) % mod",
         "#define yes cout << \"YES\" << nd",
         "#define no cout << \"NO\" << nd",
         "#define pb push_back",
